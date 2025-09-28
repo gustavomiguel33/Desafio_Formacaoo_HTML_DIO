@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header .nav {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .nav .links ul, .header .nav .social ul {
+  display: flex;
+  list-style: none;
+}
+.header .nav .links ul li, .header .nav .social ul li {
+  margin: 0 1rem;
+}
+.header .nav .links ul li a, .header .nav .social ul li a {
+  text-decoration: none;
+  color: #0f0f0f;
+}/*# sourceMappingURL=style.css.map */
