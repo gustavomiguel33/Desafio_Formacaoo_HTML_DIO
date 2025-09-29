@@ -1,23 +1,58 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
+.header {
+  border-bottom: 1px solid #CCC;
+}
 .header .nav {
   height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.header .nav .links ul, .header .nav .social ul {
+.header .nav .logo {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.header .nav .links ul,
+.header .nav .social ul {
   display: flex;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
-.header .nav .links ul li, .header .nav .social ul li {
+.header .nav .links ul li,
+.header .nav .social ul li {
   margin: 0 1rem;
+  cursor: pointer;
 }
-.header .nav .links ul li a, .header .nav .social ul li a {
+.header .nav .links ul li a,
+.header .nav .social ul li a {
   text-decoration: none;
   color: #0f0f0f;
+}
+.header .nav .links ul li {
+  padding: 1.45rem 0;
+  width: 60px;
+  text-align: center;
+}
+.header .nav .links ul li a {
+  transition: 0.5s ease;
+}
+.header .nav .links ul li a:hover {
+  color: #888888;
+}
+
+.box {
+  background-image: linear-gradient(to bottom, blue 0%, white 100%);
+  width: 100%;
+  height: 100vh;
 }/*# sourceMappingURL=style.css.map */

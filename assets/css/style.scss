@@ -1,25 +1,45 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .header {
 
+  border-bottom: 1px solid #CCC;
+
   .nav {
     height: 70px;
-    
+
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    .links, .social {
+    .logo {
+      width: 10%;
+      display: flex;
+      justify-content: center;
+
+      cursor: pointer;
+    }
+
+    .links,
+    .social {
+
       ul {
         display: flex;
         list-style: none;
 
+        margin: 0;
+        padding: 0;
+
         li {
           margin: 0 1rem;
+          cursor: pointer;
 
           a {
             text-decoration: none;
@@ -28,5 +48,29 @@
         }
       }
     }
+
+    .links {
+      ul {
+        li {
+          padding: 1.45rem 0;
+          width: 60px;
+          text-align: center;
+          a {
+
+            transition: .5s ease;
+
+            &:hover {
+              color: #888888;
+            }
+          }
+        }
+      }
+    }
   }
+}
+
+.box {
+  background-image: linear-gradient(to bottom, blue 0%, white 100%);
+  width: 100%;
+  height: 100vh;
 }
