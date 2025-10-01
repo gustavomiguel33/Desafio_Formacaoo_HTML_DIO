@@ -54,10 +54,19 @@
   color: #888888;
 }
 
-.main {
-  background-color: #0f0f0f;
-  color: #FFF;
-  width: 100%;
-  height: 100vh;
-  padding: 1rem 5rem;
+.container {
+  margin: 1.5rem auto;
+}
+.container .main .content-exemple {
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  background-color: rgba(241, 241, 241, 0.4588235294);
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
+}
+.container .main .content-exemple p {
+  margin: 0;
+}
+.container .main p {
+  line-height: 30px;
 }/*# sourceMappingURL=style.css.map */

@@ -73,11 +73,25 @@
   }
 }
 
-.main {
-  background-color: #0f0f0f;
-  color: #FFF;
-  width: 100%;
-  height: 100vh;
-  padding: 1rem 5rem;
+.container {
 
+  margin: 1.5rem auto;
+
+  .main {
+    .content-exemple {
+      border: 1px solid #CCC;
+      border-radius: 5px;
+      background-color: #f1f1f175;
+      padding: .5rem 1rem;
+
+      margin-bottom: 2rem;
+      p {
+        margin: 0; 
+      }
+    }
+
+    p {
+      line-height: 30px;
+    }
+  }
 }
